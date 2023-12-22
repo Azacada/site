@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik Doodle Shadow', serif;
+    background-color: #2e87fc;
+}
+
 h1 {
     text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 10px;
 }
