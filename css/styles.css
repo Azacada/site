@@ -28,12 +28,12 @@ h1 {
 }
 
 .box_presentation {
-    background: rgba(36, 32, 32, 0.397);
-    padding: 5px;
+    background: rgb(129,129,129);
+    background: linear-gradient(127deg, rgb(129 129 129 / 20%) 0%, rgb(0 0 0) 51%, rgba(0,0,0,1) 100%);    padding: 5px;
     width: 400px;
     height: 500px;
     border: solid;
-    border-width: 2px 0 0 2px;
+    border-width: 1px 0 0 1px;
     border-color: aliceblue;
     border-radius: 3px;
 }
