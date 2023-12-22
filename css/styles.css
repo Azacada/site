@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Rubik Doodle Shadow', serif;
+    font-family: 'Verdana', serif;
     background-color: #000000;
 }
 
@@ -30,10 +30,26 @@ h1 {
 .box_presentation {
     background: rgb(129,129,129);
     background: linear-gradient(127deg, rgb(129 129 129 / 20%) 0%, rgb(0 0 0) 51%, rgba(0,0,0,1) 100%);    padding: 5px;
-    width: 400px;
+    width: 750px;
     height: 500px;
     border: solid;
     border-width: 1px 0 0 1px;
-    border-color: aliceblue;
+    border-color: rgba(240, 248, 255, 0.199);
     border-radius: 3px;
+    overflow: scroll;
+    
+}
+
+#title_presentation {
+    margin: 10px;
+    font-size: 1.0rem;
+    color: rgba(255, 255, 255, 0.384);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#text_presentation {
+    margin: 20px;
+    padding: 10px;
+    color: white;
 }
