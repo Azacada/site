@@ -36,29 +36,27 @@ h1 {
     border-width: 1px 0 0 1px;
     border-color: rgba(240, 248, 255, 0.199);
     border-radius: 3px;
-    overflow: scroll; 
+    overflow: auto; 
     overflow-x: hidden;
-    scrollbar-color: #ffffff36 #ffffff36;
 }
 
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
 
   /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 8px;
     height: 5px;
-  }
+}
 
-  *::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: #000000;
-  }
+}
 
-  *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: #ffffff2f;
     border-radius: 10px;
-  }
-
+}
 
 #title_presentation {
     margin: 10px;
