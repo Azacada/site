@@ -14,4 +14,26 @@ h1 {
     font-size: 2.5rem;
     margin: 10px;
     color: white;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-underline-offset: 18px;
+    text-shadow: 1px 2px 14px rgb(255, 255, 255);
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.box_presentation {
+    background: rgba(36, 32, 32, 0.397);
+    padding: 5px;
+    width: 400px;
+    height: 500px;
+    border: solid;
+    border-width: 2px 0 0 2px;
+    border-color: aliceblue;
+    border-radius: 3px;
 }
