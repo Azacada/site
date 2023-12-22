@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Rubik Doodle Shadow', serif;
-    background-color: #2e87fc;
+    background-color: #000000;
 }
 
 h1 {
@@ -13,4 +13,5 @@ h1 {
     text-transform: uppercase;
     font-size: 2.5rem;
     margin: 10px;
+    color: white;
 }
