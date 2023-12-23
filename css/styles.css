@@ -68,6 +68,11 @@ h1 {
     overflow-x: hidden;
 }
 
+.box_presentation:hover {
+    background: rgba(129, 129, 129, 0.25);
+
+}
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
 
