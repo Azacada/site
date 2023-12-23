@@ -27,11 +27,7 @@ body {
     background: radial-gradient(800px circle at var(--x-px) var(--y-px), #34559c1f, transparent 60%);
 }
 
-.effect_mouse:before {
-    z-index: 1;
-}
 .effect_mouse:after {
-    z-index: 0;
     opacity: 0;
     transition: opacity 0.4s ease;
 }
@@ -61,11 +57,11 @@ h1 {
 .box_presentation {
     z-index: 1;
     background: rgb(129,129,129);
-    background: linear-gradient(127deg, rgb(129 129 129 / 20%) 0%, rgb(0 0 0) 51%, rgba(0, 0, 0, 0.692) 100%);    padding: 5px;
+    background: linear-gradient(127deg, rgb(15, 23, 42) 0%, rgb(15, 23, 42) 51%, rgb(15, 23, 42) 100%);    padding: 5px;
     width: 750px;
     height: 500px;
     border: solid;
-    border-width: 1px 0 0 1px;
+    border-width: 1px 0 1px 1px;
     border-color: rgba(240, 248, 255, 0.199);
     border-radius: 3px;
     overflow: auto; 
@@ -82,7 +78,7 @@ h1 {
 }
 
 *::-webkit-scrollbar-track {
-    background: #000000;
+    background: rgb(15, 23, 42);
 }
 
 *::-webkit-scrollbar-thumb {
@@ -106,6 +102,7 @@ h1 {
 }
 
 .my_social {
+    z-index: 1;
     margin: 50px;
     display: flex;
     align-items: center;
