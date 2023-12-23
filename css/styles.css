@@ -72,3 +72,15 @@ h1 {
     padding: 10px;
     color: white;
 }
+
+.my_social {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.position_icons {
+    padding: 10px;
+}
