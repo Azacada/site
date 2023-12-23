@@ -84,3 +84,11 @@ h1 {
 .position_icons {
     padding: 10px;
 }
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 201, 24);
+}
