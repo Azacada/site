@@ -116,6 +116,7 @@ h1 {
 }
 
 .position_icons {
+    z-index: 1;
     padding: 10px;
 }
 
