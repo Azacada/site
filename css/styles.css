@@ -4,9 +4,41 @@
 }
 
 body {
-    font-family: 'Verdana', serif;
-    background-color: #000000;
+    font-family: 'Jost', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0F172A;
 }
+
+.effect_mouse {
+    --x-px: calc(var(--x) * 1px);
+    --y-px: calc(var(--y) * 1px);
+    overflow: hidden;
+}
+
+.effect_mouse:before, .effect_mouse:after {
+    content: "";
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    inset: 0px;
+    border-radius: inherit;
+    background: radial-gradient(800px circle at var(--x-px) var(--y-px), #34559c1f, transparent 60%);
+}
+
+.effect_mouse:before {
+    z-index: 1;
+}
+.effect_mouse:after {
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+.effect_mouse:hover:after {
+    opacity: 1;
+}
+
 
 h1 {
     text-align: center;
@@ -15,12 +47,11 @@ h1 {
     margin: 10px;
     color: white;
     letter-spacing: 3px;
-    text-decoration: underline;
-    text-underline-offset: 18px;
     text-shadow: 1px 2px 14px rgb(255, 255, 255);
 }
 
 .container {
+    z-index: 1;
     margin: 50px;
     display: flex;
     align-items: center;
@@ -28,8 +59,9 @@ h1 {
 }
 
 .box_presentation {
+    z-index: 1;
     background: rgb(129,129,129);
-    background: linear-gradient(127deg, rgb(129 129 129 / 20%) 0%, rgb(0 0 0) 51%, rgba(0,0,0,1) 100%);    padding: 5px;
+    background: linear-gradient(127deg, rgb(129 129 129 / 20%) 0%, rgb(0 0 0) 51%, rgba(0, 0, 0, 0.692) 100%);    padding: 5px;
     width: 750px;
     height: 500px;
     border: solid;
